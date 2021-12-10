@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loading</title>
+	<link rel="stylesheet" type="text/css" href="loading.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="loading">
+	<div class="load">
+	</div>
+</div>
+<script>
+	$(window).on("load",funtion(){
+		$(".loading").fadeout(1000)
+	});
+</script>
+<script>
+	setTimeout(e => {window.location.href = 'logged.php'}, 2000);
+</script>
+</body>
+</html>

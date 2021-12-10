@@ -1,0 +1,82 @@
+
+body{
+    background-color:#eee;
+    margin-top:20px;
+}
+.job-detail {
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    background-color:#fff;
+}
+.form-button .nice-select {
+    width: 100%;
+    height: 39px;
+    line-height: 37px;
+    color: #6b757d;
+    margin-bottom: 1rem;
+    border: solid 1px #e9e9e9;
+}
+
+.resume-user {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 66px;
+    border-radius: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #e9e9e9;
+    color: #ff4f6c;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-align: center;
+}
+#submit {
+    border:5px solid #A36A00;
+    background-color: #A36A00; 
+    padding:5px;
+}
+  
+  }
+.fakeimg {
+    height: 200px;
+    background: #fff;
+  }
+   .nav-link {
+   font-family: 'Gluten', cursive;
+   color: white;
+}
+  h3 {
+   color: #ffffff;
+   font-family: 'Gluten', cursive;
+   color: white;
+}
+.text-center {
+  font-family: 'Gluten', cursive;
+  color: #ffffff;
+   color: blue;
+
+}
+.error p{
+    background: #754C00;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 2px auto;   
+    font-style: sans-serif;
+    text-align: left;
+
+
+}
+
+{
+    margin: 0;
+  position: absolute;
+}
+
+
+

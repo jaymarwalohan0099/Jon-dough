@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+<head>
+<title>Login form Design</title>
+    <link rel="stylesheet" type="text/css" href="sdd.css">
+<body>
+    <div class="loginbox">
+    <img src="" class=""Avatar">
+     <h1>Login Here</h1>
+     <form>
+    <p> username</p>
+    <input type="text" name="username" placeholder="Enter Username">
+    <p>Password</p>
+    <input type="password" name="password" placeholder="Enter Password">
+    <input type="submit" name="login" value="login">
+    <br><a href="#">Lost your password?</a><br>
+      <a href="#">Dont't have an Acoount?</a>
+   </form>
+</div>
+</body>
+</head>
+</html>
+
+<?php
+
+$connection = mysqli_connect("localhost","root","");
+$db = mysqli_select_db($connection,'johndoedatabase');
+
+if(isset($_POST['login']))
+{
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+
+    $query = "select * from 'user' WHERE username = '$username' AND password = '$password'";
+    $query_run = mysqli_query($connection,$query);
+
+    if(mysqli_fetch_array($query_run)>0)
+    {
+        //echo '<script type = "text/javascript">alert("Logged In")</script>';
+        echo
+    }
+    else
+    {
+        //echo '<script type = "text/javascript">alert("Login Failed")</script>';    
+    }
+
+}
+
+?>
